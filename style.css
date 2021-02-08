@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    Width: 250px;
+    margin-bottom: 30px;
+    border-radius: 100px;
+}
+
+#welcome {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    overflow: hidden;
+    background: linear-gradient(#647187 0%, #3c4452 100%);
+    height: 100%;
+    width: 100%;
+    color: #f7d7a6;
+    opacity: 100;
+    display: table;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Century Gothic;
+}
+
+#name {
+    font-size: 45px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #f9ffcf;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Century Gothic;
+}
+
+.div1 {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.line {
+    margin: 8px auto;
+    height: 10px;
+    width: 100px;
+    background-color: black;
+}
+
+p {
+    max-width: 500px;
+    margin: 20px auto;
+    line-height: 1.5;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+}
+.link{
+    float:left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 25px;
+    color: #30363b;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.menu {
+    list-style: none;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    position: absolute;
+    
+}
+.link:hover{
+    background-color:#b5bdc9;
+}
